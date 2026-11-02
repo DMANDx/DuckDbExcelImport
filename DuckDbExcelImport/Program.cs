@@ -76,8 +76,6 @@ namespace DuckDbExcelImport
             stageSw.Stop();
             LogTime(perfLogPath, "Прямой экспорт отчета в формат Parquet (Вариант 3)", stageSw.Elapsed);
 
-
-            // --- ФИНАЛ ПАЙПЛАЙНА ---
             totalSw.Stop();
             LogTime(perfLogPath, "ОБЩЕЕ ВРЕМЯ РАБОТЫ", totalSw.Elapsed);
 
