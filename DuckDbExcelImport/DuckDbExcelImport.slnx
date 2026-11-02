@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../DuckTest/DuckTest.csproj" />
+  <Project Path="DuckDbExcelImport.csproj" />
+</Solution>
