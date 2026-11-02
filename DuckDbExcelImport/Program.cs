@@ -80,7 +80,7 @@ namespace DuckDbExcelImport
             LogTime(perfLogPath, "ОБЩЕЕ ВРЕМЯ РАБОТЫ", totalSw.Elapsed);
 
             Console.WriteLine(new string('-', 50));
-            Console.WriteLine($"\nВсе этапы успешно замерены! Результаты сохранены в: {Path.GetFullPath(perfLogPath)}");
+            Console.WriteLine($"\nВсе этапы замерены. Результаты сохранены в: {Path.GetFullPath(perfLogPath)}");
 
             Console.WriteLine("\nНажмите любую клавишу для выхода...");
             Console.ReadKey();
